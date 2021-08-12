@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .backplan{
+            width: 400px;
+            height: 500px;
+            background-color: blanchedalmond;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            
+        }
+        .bar{
+            display: flex;
+            background-color: gray;
+            border: 1px solid black;
+            flex-grow: 1;
+        }
+        .svg{
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            border-radius:80px ;
+            flex-shrink: 0;
+            align-self: center;
+        }
+        
+        .content{
+            flex-grow: 1;
+            align-self: center;
+            font-weight: bold;
+            align-self: center;
+        }
+        .content span{
+            font-weight: normal;
+        }
+        .arrow{
+            width: 5px;
+            height: 15px;
+            background-color: black;
+            align-self: center;
+            flex-shrink: 0;
+        }
+        .item{
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="backplan">
+        <div class="bar">
+            <div class="svg item"></div>
+            <div class="content item">sdjfgbsdgsdfgsfg <br><span>paragraf</span> </div>
+            <div class="arrow item"></div>
+        </div>
+        <div class="bar">
+            <div class="svg item"></div>
+            <div class="content item">sdjfgbsdgsdfgsfg <br><span>paragraf</span> </div>
+            <div class="arrow item"></div>
+        </div>
+        <div class="bar">
+            <div class="svg item"></div>
+            <div class="content item">sdjfgbsdgsdfgsfg <br><span>paragraf</span> </div>
+            <div class="arrow item"></div>
+        </div>
+    </div>
+
+    
+   
+</body>
+</html>
